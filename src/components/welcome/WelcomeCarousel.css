@@ -6,20 +6,20 @@
   }
 
   .image1{
-    background-image: url('./assets/rs=w_767,m.webp');
+    background-image: url('../../assets/rs=w_767,m.webp');
   }
   .image2{
-    background-image: url('./assets/rs=w_768,m.webp');
+    background-image: url('../../assets/rs=w_768,m.webp');
   }
   .image3{
-    background-image: url('./assets/rs=w_769,m.webp');
+    background-image: url('../../assets/rs=w_769,m.webp');
   }
 
   .image4{
-    background-image: url('./assets/rs=w_770,m.webp');
+    background-image: url('../../assets/rs=w_770,m.webp');
   }
   .image5{
-    background-image: url('./assets/rs=w_771,m.webp');
+    background-image: url('../../assets/rs=w_771,m.webp');
   }
 
   
@@ -31,6 +31,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(255,255,255,0.8);
+
   }
 
   .carousel{

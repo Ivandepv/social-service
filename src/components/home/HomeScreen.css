@@ -1,0 +1,98 @@
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin: 2% 0px;
+    padding: 0px;
+    
+}
+
+.title-item{
+    margin: 15px 25%;
+    border: 2px solid black;
+}
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+
+
+}
+
+.container-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.item-img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.item-img-mobile{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img1{
+    background-image: url('../../assets/title-img.webp');
+}
+
+
+.img2{
+    background-image: url('../../assets/objetoSocial.webp');
+}
+.img3{
+    background-image: url('../../assets/Mision.webp');
+}
+
+.img4{
+    background-image: url('../../assets/Vision.webp');
+}
+
+
+  
+.item {
+    margin: 2%;
+    max-width: 25%;
+    border: 2px solid black;
+}
+
+.item-mobile {
+    margin: 2%;
+    max-width: 60%;
+    border: 2px solid black;
+}
+
+
+
+
+.fab{
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.fa-instagram{
+    color: red;
+}
+
+.fa-facebook{
+    color: blue;
+
+}
+
+.fa-twitter{
+    color:cyan;
+}
+

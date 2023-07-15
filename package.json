@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
+    "@chakra-ui/skip-nav": "^2.0.15",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^10.12.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive": "^9.0.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

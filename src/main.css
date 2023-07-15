@@ -3,3 +3,38 @@
     padding: 0;
     margin: 0;
 }
+
+footer {
+    padding: 1rem;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;   
+}
+
+p{
+    padding: 2%;
+}
+h2{
+    padding: 2%;
+}
+
+.fab{
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.fa-instagram{
+    color: red;
+}
+
+.fa-facebook{
+    color: blue;
+
+}
+
+.fa-twitter{
+    color:cyan;
+}
+
+/* .navbar{
+    justify-content: space-around;
+} */

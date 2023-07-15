@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    /* background-color: rgba(33,37,41, 0.6) !important; */
+}
+.logo{
+    background-color: rgba(219, 161, 91, 0.742);
+}
+
+.navbar-brand {
+    width: 15%;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
