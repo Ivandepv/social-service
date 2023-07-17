@@ -1,6 +1,7 @@
 
 import "./ProgramasSociales.css"
 import { useMediaQuery } from 'react-responsive';
+import { motion } from "framer-motion";
 
 interface DesktopProps {
     children: JSX.Element;
@@ -22,7 +23,11 @@ const Desktop = ({ children }:DesktopProps) => {
 
 export const ProgramasSociales = () => {
   return (
-    <div>
+    <motion.div
+      initial={{width:0}}
+      animate={{width:"100vw"}}
+      exit={{x:window.innerWidth, transition: {duration:0.1}}}
+    >
       <h1 className='title'>Programas Sociales</h1>
       <hr/>
 
@@ -194,6 +199,6 @@ export const ProgramasSociales = () => {
           <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
         </div>
       </footer>
-    </div>
+    </motion.div>
   )
 }

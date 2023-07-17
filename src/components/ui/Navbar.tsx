@@ -1,5 +1,4 @@
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/qt=q_95.webp'; // with import
 
 import "./Navbar.css"
 

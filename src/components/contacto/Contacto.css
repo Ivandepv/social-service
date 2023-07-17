@@ -1,0 +1,68 @@
+.whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c7e;
+  }
+
+  .container-contact{
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+  }
+  /* .container-contact_img{
+    background-image: url("../../assets/voluntariado.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 620px;
+    height: 110vh;
+
+      
+  } */
+
+  .container-contact_img img{
+    margin: auto;
+  }
+  
+
+  .email-button {
+    background-color: #0072c6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .email-button:hover {
+    background-color: #005ea2;
+  }
+
+  
+  .btn-email {
+    background-color: #0072c6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-email i {
+    margin-right: 8px;
+  }
+  

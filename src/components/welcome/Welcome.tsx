@@ -1,13 +1,19 @@
-import React from 'react'
+
+import { motion } from 'framer-motion';
 import './Welcome.css'
-import { Button, ButtonGroup } from '@chakra-ui/react';
-import { Carousel } from 'react-responsive-carousel';
+import { Button } from '@chakra-ui/react';
+
 import { WelcomeCarousel } from './WelcomeCarousel';
 import logo from '../../assets/qt=q_95.webp'; // with import
 
 export const Welcome = () => {
   return (
-    <div className='welcome'>
+    <motion.div 
+      className='welcome'
+      initial={{width:0}}
+      animate={{width:"100vw"}}
+      exit={{x:window.innerWidth, transition: {duration:0.1}}}
+    >
         <WelcomeCarousel />
     
 
@@ -21,6 +27,6 @@ export const Welcome = () => {
                 </a>
 
         </div>
-    </div>
+    </motion.div>
   )
 }

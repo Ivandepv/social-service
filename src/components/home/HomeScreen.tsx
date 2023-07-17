@@ -1,5 +1,6 @@
 import "./HomeScreen.css"
 import { useMediaQuery } from 'react-responsive';
+import {motion} from "framer-motion";
 
 
 
@@ -24,7 +25,11 @@ const Desktop = ({ children }:DesktopProps) => {
 export const HomeScreen = () => {
 
   return (
-    <div>
+    <motion.div
+      initial={{width:0}}
+      animate={{width:"100vw"}}
+      exit={{x:window.innerWidth, transition: {duration:0.1}}}
+    >
       <h1 className='title'>Fundación Por la Educación IAP</h1>
       <div className="title-item">
             <div className="item-img img1"></div>
@@ -85,6 +90,6 @@ export const HomeScreen = () => {
           <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
         </div>
       </footer>
-    </div>
+    </motion.div>
   )
 }
